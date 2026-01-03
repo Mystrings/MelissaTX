@@ -1,5 +1,5 @@
 async function loadBusinesses(){
-  const res = await fetch('businesses.json');
+  const res = await fetch('/api/businesses');
   const data = await res.json();
   return data;
 }
