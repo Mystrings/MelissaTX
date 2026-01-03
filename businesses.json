@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Sunrise Pharmacy",
+    "category": "Pharmacy",
+    "phone": "555-0101",
+    "address": "12 Main St, Downtown",
+    "website": "https://example.com/sunrise-pharmacy",
+    "description": "Local full-service pharmacy with delivery and immunizations.",
+    "rating": 4.5
+  },
+  {
+    "name": "Green Leaf Grocery",
+    "category": "Grocery",
+    "phone": "555-0123",
+    "address": "44 Market Ave",
+    "website": "",
+    "description": "Organic produce and specialty health foods.",
+    "rating": 4.7
+  },
+  {
+    "name": "City Lights Cafe",
+    "category": "Cafe",
+    "phone": "555-0145",
+    "address": "8 River Road",
+    "website": "https://example.com/city-lights",
+    "description": "Cozy cafe with all-day breakfast and local roasts.",
+    "rating": 4.4
+  },
+  {
+    "name": "Elm Street Plumbing",
+    "category": "Home Services",
+    "phone": "555-0166",
+    "address": "Service Yard, Elm St",
+    "website": "",
+    "description": "24/7 emergency plumbing and repairs.",
+    "rating": 4.6
+  },
+  {
+    "name": "Bright Minds Tutoring",
+    "category": "Education",
+    "phone": "555-0188",
+    "address": "Suite 200, 101 College Blvd",
+    "website": "https://example.com/bright-minds",
+    "description": "In-person and online tutoring for all ages.",
+    "rating": 4.8
+  },
+  {
+    "name": "Corner Barber",
+    "category": "Personal Care",
+    "phone": "555-0199",
+    "address": "Corner of 3rd & Pine",
+    "website": "",
+    "description": "Traditional barber shop, walk-ins welcome.",
+    "rating": 4.3
+  }
+]
