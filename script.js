@@ -1,7 +1,17 @@
 async function loadBusinesses(){
-  const res = await fetch('/api/businesses');
-  const data = await res.json();
-  return data;
+  // Try the dynamic API first (for local Flask). If it fails (GitHub Pages),
+  // fall back to the packaged static `businesses.json`.
+  try{
+    const res = await fetch('/api/businesses');
+    if(res.ok){
+      return await res.json();
+    }
+  }catch(e){
+    // ignore and fall back
+  }
+  // fallback
+  const r2 = await fetch('businesses.json');
+  return await r2.json();
 }
 
 function renderList(businesses){
